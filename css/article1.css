@@ -469,6 +469,61 @@ footer {
     color: #bbb;
 }
 
+/* References Tab */
+/* References Dropdown */
+.references-section {
+    margin: 40px 0 20px;
+    border-top: 1px solid var(--light-gray);
+    padding-top: 30px;
+}
+
+.references-toggle {
+    background-color: white;
+    border: 1px solid var(--light-gray);
+    padding: 12px 15px;
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--dark-navy);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.references-toggle:hover {
+    background-color: var(--light-bg);
+}
+
+.toggle-icon {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.references-content {
+    display: none;
+    padding: 20px;
+    background-color: var(--light-bg);
+    border: 1px solid var(--light-gray);
+    border-top: none;
+}
+
+.references-content.active {
+    display: block;
+}
+
+.references-list {
+    padding-left: 20px;
+}
+
+.references-list li {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
 /* Responsive Styles */
 @media (max-width: 992px) {
     .related-grid {
